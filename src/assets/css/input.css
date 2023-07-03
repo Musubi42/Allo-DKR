@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "gagalin";
+    font-weight: 600;
+    src: url("/assets/fonts/Gagalin-Regular.otf");
+  }
+  @font-face {
+    font-family: "Neue_haas_grotesk_display_pro";
+    font-weight: 700;
+    src: url(/assets/fonts/NeueHaasDisplayBold.ttf);
+  }
+  @font-face {
+    font-family: "neue_haas_grotesk_display_pro";
+    font-weight: 600;
+    src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
+  }
+  @font-face {
+    font-family: "neue_haas_grotesk_display_pro";
+    font-weight: 500;
+    src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
+  }
+  @font-face {
+    font-family: "neue_haas_grotesk_display_pro";
+    font-weight: 400;
+    src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
+  }
+}
+
+.hr-vertical {
+  border: none;
+  border-left: 1px solid #d6d9c1;
+}
