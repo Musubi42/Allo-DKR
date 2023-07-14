@@ -1,0 +1,27 @@
+{
+  "name": "allo-dkr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eleventy:build": "NODE_ENV=production npx eleventy",
+    "eleventy:start": "netlify dev",
+    "eleventy:dev": "NODE_ENV=development npx eleventy --serve",
+    "eleventy:watch": "npx eleventy --watch  --serve",
+    "eleventy:debug": "DEBUG=* npx eleventy",
+    "css:dev": "npx tailwindcss -i ./src/assets/css/input.css -o ./_site/assets/css/index.css --watch",
+    "css:prod": "npx tailwindcss -i ./src/assets/css/input.css -o ./_site/assets/css/index.css --minify",
+    "dev": "concurrently \"npm run eleventy:dev\" \"npm run css:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.0",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -13,24 +13,48 @@
     font-weight: 700;
     src: url(/assets/fonts/NeueHaasDisplayBold.ttf);
   }
-  @font-face {
+  /* @font-face {
     font-family: "neue_haas_grotesk_display_pro";
     font-weight: 600;
     src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
-  }
+  } */
   @font-face {
     font-family: "neue_haas_grotesk_display_pro";
     font-weight: 500;
-    src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
+    src: url(/assets/fonts/NeueHaasDisplayMediu.ttf);
   }
   @font-face {
     font-family: "neue_haas_grotesk_display_pro";
     font-weight: 400;
-    src: url(/public/assets/fonts/Lovelo_Line_Bold.otf);
+    src: url(/assets/fonts/NeueHaasDisplayLight.ttf);
   }
 }
 
 .hr-vertical {
   border: none;
   border-left: 1px solid #d6d9c1;
+}
+
+.footer::before {
+  content: "";
+  z-index: 10;
+  position: absolute;
+  margin-top: 228px;
+  top: 100%;
+  left: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px; /* Adjust the height as needed */
+  background: linear-gradient(
+    to top,
+    rgba(214, 217, 193, 0.3) 0%,
+    rgba(214, 217, 193, 0) 100%
+  );
+  z-index: 100;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  border-top-left-radius: 95px;
+  border-top-right-radius: 95px;
 }
