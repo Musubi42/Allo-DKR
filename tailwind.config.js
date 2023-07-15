@@ -11,7 +11,7 @@ module.exports = {
         menu_infos: "url('/assets/images/menu_infos.png')",
       },
       colors: {
-        "primary-light": "#36593C",
+        "primary-light": "#48734B",
         "primary-dark": "#36593C",
         "secondary": "#D6D9C1"
       },
