@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "eleventy:build": "NODE_ENV=production npx eleventy",
+    "eleventy:build": "concurrently \"NODE_ENV=production npx eleventy \" \"npm run css:prod\"",
     "eleventy:start": "netlify dev",
     "eleventy:dev": "NODE_ENV=development npx eleventy --serve",
     "eleventy:watch": "npx eleventy --watch  --serve",
