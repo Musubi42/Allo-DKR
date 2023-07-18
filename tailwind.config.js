@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         "primary-light": "#48734B",
         "primary-dark": "#36593C",
-        "secondary": "#D6D9C1"
+        "secondary": "#FFFFFF"
       },
       fontFamily: {
         gagalin: ["gagalin", "helvetica"],
