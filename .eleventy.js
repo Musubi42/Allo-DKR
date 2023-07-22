@@ -21,6 +21,7 @@ module.exports = function (config) {
   config.addNunjucksAsyncFilter("postcss", postcssFilter);
   config.addPassthroughCopy("src/assets/fonts/");
   config.addPassthroughCopy("src/assets/images/");
+  config.addPassthroughCopy("src/scripts");
   return {
     passthroughFileCopy: true,
     dir: {
