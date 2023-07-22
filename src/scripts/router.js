@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (landing_page_menu_burger) {
     landing_page_menu_burger.addEventListener("click",() => {
-      document.location.href = "http://localhost:8080/menu"
+      document.location.href = document.location.host == "localhost:8080" ? "http://localhost:8080/menu" : "allo-dkr.musubi.dev/menu"
     });
   }
 
   if (menu_menu_burger) {
     menu_menu_burger.addEventListener("click",() => {
-      document.location.href = "http://localhost:8080/"
+      document.location.href = document.location.host == "localhost:8080" ? "http://localhost:8080" : "allo-dkr.musubi.dev"
     });
   }
 });
