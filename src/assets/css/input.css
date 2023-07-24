@@ -34,7 +34,7 @@
   border: none;
   border-left: 1px solid #d6d9c1;
 }
-
+/* 
 .footer::before {
   content: "";
   z-index: 10;
@@ -45,7 +45,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 80px; /* Adjust the height as needed */
+  height: 80px; 
   background: linear-gradient(
     to top,
     rgba(214, 217, 193, 0.5) 0%,
@@ -58,4 +58,4 @@
   border-top-left-radius: 95px;
   border-top-right-radius: 95px;
   filter: blur(1.75rem);
-}
+} */

@@ -9,6 +9,7 @@ module.exports = {
         transition_star_secondary: "url('/assets/images/transition_star_secondary.png')",
         menu_restos: "url('/assets/images/menu_restos.png')",
         menu_infos: "url('/assets/images/menu_infos.png')",
+        maps_position_lille: "url('/assets/images/maps_position_lille.png')"
       },
       colors: {
         "primary-light": "#48734B",
