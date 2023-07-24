@@ -6,7 +6,7 @@
   "scripts": {
     "eleventy:build": "concurrently \"NODE_ENV=production npx eleventy \" \"npm run css:prod\"",
     "eleventy:start": "netlify dev",
-    "eleventy:dev": "NODE_ENV=development npx eleventy --serve",
+    "eleventy:dev": "npx eleventy --serve",
     "eleventy:watch": "npx eleventy --watch  --serve",
     "eleventy:debug": "DEBUG=* npx eleventy",
     "css:dev": "npx tailwindcss -i ./src/assets/css/input.css -o ./_site/assets/css/index.css --watch",
