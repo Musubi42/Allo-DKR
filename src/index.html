@@ -14,12 +14,25 @@ title: landing page
   </div>
   <div class="relative z-10 bg-white flex items-center justify-center mt-[-30px] h-[80px] w-full mx-auto">
     <div class="flex flex-row my-auto justify-around mx-6 w-full font-semibold">
-      <p class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2">En livraison</p>
-      <p class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2">Sur place</p>
-      <p class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2">À emporter</p>
+      <p 
+        class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
+        data-modal-trigger="#modal-content"
+      >En livraison</p>
+      <p 
+      class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
+      data-modal-trigger="#modal-content"
+      >Sur place</p>
+      <p 
+      class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
+      data-modal-trigger="#modal-content"
+      >À emporter</p>
     </div>
   </div>
-  
+
+  {% for modal in modal_landing_page %}
+    {% modal_landing_page title=modal.title, isLivraison=modal.isLivraison, tourcoing=modal.tourcoing, lille=modal.lille %}
+  {% endfor %}
+
 
 <div class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
@@ -37,7 +50,7 @@ title: landing page
             <img src="/assets/images/yassa.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="" aria-label="3">
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active" aria-label="3">
             <img src="/assets/images/mafe.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 5
@@ -103,5 +116,6 @@ title: landing page
 </main>
 
 {% include "layouts/footer/footer.html" %}
+<script src="/scripts/modal.js"></script>
 
 
