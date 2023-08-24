@@ -12,25 +12,25 @@ title: landing page
       <h1 class="mt-[76px] text-white font-bold font-neue-haas-grotesk-display-pro text-xl z-10">COMMANDER EN LIGNE</h1>
     </div>
   </div>
-  <div class="relative z-10 bg-white flex items-center justify-center mt-[-30px] h-[80px] w-full mx-auto">
+  <div id="button_modal_landing_page" class="relative z-10 bg-white flex items-center justify-center mt-[-30px] h-[80px] w-full mx-auto">
     <div class="flex flex-row my-auto justify-around mx-6 w-full font-semibold">
-      <p 
+      <button 
         class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
-        data-modal-trigger="#modal-content"
-      >En livraison</p>
-      <p 
+        modal-target="enLivraison"
+      ><p>En livraison</p></button>
+      <button 
       class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
-      data-modal-trigger="#modal-content"
-      >Sur place</p>
-      <p 
+      modal-target="surPlace"
+      ><p>Sur place</p></button>
+      <button 
       class="text-center text-[13.5px] text-white bg-primary-light rounded-md p-2"
-      data-modal-trigger="#modal-content"
-      >À emporter</p>
+      modal-target="aEmporter"
+      ><p>À emporter</p></button>
     </div>
   </div>
 
   {% for modal in modal_landing_page %}
-    {% modal_landing_page title=modal.title, isLivraison=modal.isLivraison, tourcoing=modal.tourcoing, lille=modal.lille %}
+    {% modal_landing_page id=modal.id, title=modal.title, modal_button_close=modal.modal_button_close, tourcoing=modal.tourcoing, lille=modal.lille %}
   {% endfor %}
 
 
