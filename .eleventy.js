@@ -13,7 +13,7 @@ module.exports = function (config) {
   config.addShortcode("plat_categorie", plat_categorie)
   config.addPlugin(sitemap, {
     sitemap: {
-      hostname: "https://example.com",
+      hostname: "https://allodkrsaveurs.fr",
     },
   });
   return {
