@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (landing_page_menu_burger) {
     landing_page_menu_burger.addEventListener("click",() => {
-      document.location.href = "/menu"
+      document.location.href = "/menu/"
     });
   }
 
