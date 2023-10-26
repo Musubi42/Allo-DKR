@@ -7,194 +7,214 @@ title: landing page
 <main class="bg-[#DDDDDD] w-full h-full">
   <div class="flex flex-col relative w-[80%] mx-auto items-center justify-center">
 
-      {% for categorie_plat in menus %}
+    <!-- {% for categorie_plat in menus %}
         {% plat_categorie title=categorie.entrées[0].title %}
-      {% endfor %}
-      <div class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
+      {% endfor %} -->
+    <div
+      class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
 
-        <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
-          ENTRÉES
-        </h2>
-        <div class="flex flex-row mt-4">
+      <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
+        ENTRÉES
+      </h2>
+      <div class="flex flex-row mt-4">
 
-          <!-- Faire 3 components imbriqués -->
-          <!-- Component stage plat entrée plat dessert boissons -->
-          <!-- Component list flex-1 -->
-          <!-- Component list plat -->
-          
-          <!-- La data est donc nested pour représenter les différents components -->
-          <!-- Si on reste dans le nestage alors on reproduit le même component  -->
-          <!-- Si on en sort changer de component -->
-          <div class="flex flex-1 flex-col mr-5">
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Nems x4</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou crevette</p>
-              </div>
+        <!-- Faire 3 components imbriqués -->
+        <!-- Component stage plat entrée plat dessert boissons -->
+        <!-- Component list flex-1 -->
+        <!-- Component list plat -->
 
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
-              </div>
+        <!-- La data est donc nested pour représenter les différents components -->
+        <!-- Si on reste dans le nestage alors on reproduit le même component  -->
+        <!-- Si on en sort changer de component -->
+        <div class="flex flex-1 flex-col mr-5">
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Nems x4
+              </p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou
+                crevette</p>
             </div>
 
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Samoussas x4</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Boeuf</p>
-              </div>
-
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
-              </div>
-            </div>
-
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Boîte d'alloco</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
-              </div>
-
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="flex flex-1 flex-col">
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Pastels x5</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Thon ou Viande hachée</p>
-              </div>
-
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
-              </div>
-            </div>
-
-
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Salade DKR</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
-              </div>
-
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">5</p>
-              </div>
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
             </div>
           </div>
-          
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                Samoussas x4</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Boeuf</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+            </div>
+          </div>
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Boîte
+                d'alloco</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex flex-1 flex-col">
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Pastels
+                x5</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Thon ou Viande
+                hachée</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+            </div>
+          </div>
+
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Salade
+                DKR</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">5</p>
+            </div>
+          </div>
         </div>
 
       </div>
 
+    </div>
 
-      <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
+
+    <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
 
 
-      <div class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
+    <div
+      class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
 
-        <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
-          PLATS
-        </h2>
-        <div class="flex flex-col">
-          <div class="flex flex-row mt-4">
-            <div class="flex flex-1 flex-col mr-5">
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Mafé</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou Boeuf</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
-                </div>
+      <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
+        PLATS
+      </h2>
+      <div class="flex flex-col">
+        <div class="flex flex-row mt-4">
+          <div class="flex flex-1 flex-col mr-5">
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Mafé
+                </p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou
+                  Boeuf</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Yassa</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiep</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou Boeuf</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiep</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">15</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Dibi Cotelettes</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
               </div>
             </div>
 
-<!-- TODO: Avec Alloco 20 sans 16.5 -->
-            <div class="flex flex-1 flex-col">
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Athiéké (avec Alloco)</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson ou poulet</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">20</p>
-                </div>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Yassa
+                </p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Athiéké (sans Alloco)</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson ou poulet</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
+              </div>
+            </div>
 
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
-                </div>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiep
+                </p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poulet ou
+                  Boeuf</p>
               </div>
 
-              <!-- <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">13.5</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiep
+                </p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">15</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Dibi
+                  Cotelettes</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TODO: Avec Alloco 20 sans 16.5 -->
+          <div class="flex flex-1 flex-col">
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Athiéké (avec Alloco)</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson ou
+                  poulet</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">20</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Athiéké (sans Alloco)</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">Poisson ou
+                  poulet</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
+              </div>
+            </div>
+
+            <!-- <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
               <div class="flex flex-row justify-between">
                 <div>
                   <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Brochettes</p>
@@ -206,81 +226,164 @@ title: landing page
                 </div>
               </div> -->
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Poulet Braisé</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">15.5</p>
-                </div>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Poulet Braisé</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Poisson Braisé</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">15.5</p>
               </div>
             </div>
 
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Poisson Braisé</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">16.5</p>
+              </div>
+            </div>
           </div>
 
-          <div class=" relatives px-2 mb-[7px] mx-auto mt-[7px]">
-            <p class="text-center text-primary-light font-semibold text-xl font-neue-haas-grotesk-display-pro underline">Accompagnements</p>
-          </div>
-          <p class="text-center text-primary-dark font-semibold text-[9px] font-neue-haas-grotesk-display-pro">Choisis entre : Riz Blanc ; Vermicelles ; Frites ; Allocos ; Athiéké</p>
         </div>
 
-
+        <div class=" relatives px-2 mb-[7px] mx-auto mt-[7px]">
+          <p class="text-center text-primary-light font-semibold text-xl font-neue-haas-grotesk-display-pro underline">
+            Accompagnements</p>
+        </div>
+        <p class="text-center text-primary-dark font-semibold text-[9px] font-neue-haas-grotesk-display-pro">Choisis
+          entre : Riz Blanc ; Vermicelles ; Frites ; Allocos ; Athiéké</p>
       </div>
 
 
-      <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
+    </div>
 
 
-      <div class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
+    <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
 
-        <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
-          DESSERTS
-        </h2>
+
+    <div
+      class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
+
+      <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
+        DESSERTS
+      </h2>
+      <div class="flex flex-row mt-4">
+        <div class="flex flex-1 flex-col mr-5">
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                Tiramisu</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3.5</p>
+            </div>
+          </div>
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Salade
+                de fruits</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3.5</p>
+            </div>
+          </div>
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                Brochette de fruits</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2.5</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flex flex-1 flex-col">
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                Milkshake</p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+            </div>
+          </div>
+
+          <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+          <div class="flex flex-row justify-between">
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiakry
+              </p>
+              <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+            </div>
+
+            <div>
+              <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
+
+
+    <div
+      class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
+
+      <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
+        BOISSONS
+      </h2>
+      <div class="flex flex-col">
         <div class="flex flex-row mt-4">
           <div class="flex flex-1 flex-col mr-5">
+            <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">En bouteille
+            </h3>
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Tiramisu</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca
+                  Cola 0,5l</p>
                 <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3.5</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.7</p>
               </div>
             </div>
 
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Salade de fruits</p>
-                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-              </div>
-
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3.5</p>
-              </div>
-            </div>
-
-            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-            <div class="flex flex-row justify-between">
-              <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Brochette de fruits</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca
+                  Cola 1,5</p>
                 <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
@@ -288,235 +391,179 @@ title: landing page
                 <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2.5</p>
               </div>
             </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Oasis
+                  Tropical 2L</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3</p>
+              </div>
+            </div>
           </div>
 
 
           <div class="flex flex-1 flex-col">
+            <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">Spécial
+              ALLODKR</h3>
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Milkshake</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Jus
+                  de gingembre</p>
                 <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2</p>
               </div>
             </div>
 
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Thiakry</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Bissap</p>
                 <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
               <div>
-                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">4</p>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2</p>
               </div>
             </div>
           </div>
+
+
         </div>
 
-
-      </div>
-
-
-      <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-80">
+        <hr class="w-[75%] mx-auto mt-7 relative border-none h-[1px] bg-primary-dark bg-opacity-50">
 
 
-      <div class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
-
-        <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
-          BOISSONS
-        </h2>
-        <div class="flex flex-col">
-          <div class="flex flex-row mt-4">
-            <div class="flex flex-1 flex-col mr-5">
-              <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">En bouteille</h3>
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca Cola 0,5l</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.7</p>
-                </div>
+        <div class="flex flex-row mt-4">
+          <div class="flex flex-1 flex-col mr-5">
+            <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">Canette 33cl
+            </h3>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">7Up
+                  Mojito</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca Cola 1,5</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Oasis Tropical 2L</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal"></p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">3</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
               </div>
             </div>
 
-
-            <div class="flex flex-1 flex-col">
-              <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">Spécial ALLODKR</h3>
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Jus de gingembre</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2</p>
-                </div>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca
+                  cola</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Bissap</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
+              </div>
+            </div>
 
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">2</p>
-                </div>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca
+                  zéro</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Sprite</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
               </div>
             </div>
 
 
           </div>
 
-          <hr class="w-[75%] mx-auto mt-7 relative border-none h-[1px] bg-primary-dark bg-opacity-50">
 
-
-          <div class="flex flex-row mt-4">
-            <div class="flex flex-1 flex-col mr-5">
-              <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">Canette 33cl</h3>
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">7Up Mojito</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
+          <div class="flex flex-1 flex-col">
+            <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">.</h3>
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">
+                  Orangina</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
               </div>
 
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca cola</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Coca zéro</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Sprite</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-
-            </div>
-
-
-            <div class="flex flex-1 flex-col">
-              <h3 class="text-sm text-primary-dark font-neue-haas-grotesk-display-pro font-medium mb-[10px]">.</h3>
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Orangina</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Ice Tea pêche</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Oasis Tropical</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
-              </div>
-
-              <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
-              <div class="flex flex-row justify-between">
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Fanta Orange/Citron</p>
-                  <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
-                </div>
-
-                <div>
-                  <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
-                </div>
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
               </div>
             </div>
 
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Ice
+                  Tea pêche</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
 
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Oasis
+                  Tropical</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
+              </div>
+            </div>
+
+            <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
+            <div class="flex flex-row justify-between">
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold mb-[-2px]">Fanta
+                  Orange/Citron</p>
+                <p class="text-[8px] text-primary-dark/70 font-neue-haas-grotesk-display-pro font-normal">.</p>
+              </div>
+
+              <div>
+                <p class="text-[8px] text-primary-dark font-neue-haas-grotesk-display-pro font-semibold">1.5</p>
+              </div>
+            </div>
           </div>
+
+
+        </div>
       </div>
 
-      </div>
     </div>
+  </div>
 </main>
 
 {% include "layouts/footer/footer_menu_lille.html" %}
