@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sur place",
+    "isLivraison": false,
+    "tourcoing": "L'adresse du restaurant <a href=https://goo.gl/maps/qAgmdNGou97rNdUG6 rel=noopener noreferrer nofollow target=_blank class=underline >40 Rue boilly, 59200</a> <br /> Appelez : <a href=tel:+0615723343 class=underline >06 15 72 33 43</a>",
+    "lille": "L'adresse du restaurant <a href=https://goo.gl/maps/V5LGe4EYddDp6QnYA rel=noopener noreferrer nofollow target=_blank class=underline >4 Rue courmont, 59000</a> <br /> Appelez : <a href=tel:+0374449579 class=underline >03 74 44 95 79</a>"
+  },
+  {
+    "title": "À emporter",
+    "isLivraison": false,
+    "tourcoing": "L'adresse du restaurant <a href=https://goo.gl/maps/qAgmdNGou97rNdUG6 rel=noopener noreferrer nofollow target=_blank class=underline >40 Rue boilly, 59200</a> <br /> Appelez : <a href=tel:+0615723343 class=underline >06 15 72 33 43</a>",
+    "lille": "L'adresse du restaurant <a href=https://goo.gl/maps/V5LGe4EYddDp6QnYA rel=noopener noreferrer nofollow target=_blank class=underline >4 Rue courmont, 59000</a> <br /> Appelez : <a href=tel:+0374449579 class=underline >03 74 44 95 79</a>"
+  }
+]

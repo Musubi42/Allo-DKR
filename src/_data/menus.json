@@ -1,0 +1,85 @@
+[
+  {
+    "entrées": [
+      {
+        "title": "test",
+        "list_plat": [
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          },
+          {
+            "name": "Samoussas x4",
+            "description": "Boeuf",
+            "price": "4"
+          },
+          {
+            "name": "Boîte d'alloco",
+            "description": "",
+            "price": "4"
+          }
+        ]
+      },
+      {
+        "title": "oui",
+        "list_plat": [
+          {
+            "name": "Pastels x5",
+            "description": "Thon ou viande hachée",
+            "price": "4"
+          },
+          {
+            "name": "Salade DKR",
+            "description": "",
+            "price": "5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "plats": [
+      {
+        "title": "",
+        "list_plat": [
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          },
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          },
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "list_plat": [
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          },
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          },
+          {
+            "name": "Nems x4",
+            "description": "Poulet ou crevette",
+            "price": "4"
+          }
+        ]
+      }
+    ]
+  }
+]

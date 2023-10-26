@@ -28,13 +28,13 @@ function modal_landing_page({id, title, modal_button_close, tourcoing, lille}) {
                   <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     ${tourcoing}
                     <br />
-                    Consultez le menu de Tourcoing, <a href="/menu-tourcoing" class="underline" >ici</a>
+                    Consultez le menu de Tourcoing, <a href="/menu-tourcoing/" class="underline" >ici</a>
                   </p>
                 <h4>Lille</h4>
                   <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     ${lille}   
                     <br /> 
-                    Consulter le menu de Lille, <a href="/menu-lille" class="underline" >ici</a>
+                    Consulter le menu de Lille, <a href="/menu-lille/" class="underline" >ici</a>
                   </p>
               </div>
           </div>

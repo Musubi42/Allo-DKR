@@ -2,3 +2,7 @@
 .netlify
 node_modules/
 _site
+
+.DS_Store
+src/assets/images/Opti
+src/assets/images copy

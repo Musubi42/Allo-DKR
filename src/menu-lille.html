@@ -6,12 +6,25 @@ title: landing page
 
 <main class="bg-[#DDDDDD] w-full h-full">
   <div class="flex flex-col relative w-[80%] mx-auto items-center justify-center">
+
+      {% for categorie_plat in menus %}
+        {% plat_categorie title=categorie.entrées[0].title %}
+      {% endfor %}
       <div class="bg-[white] bg-cover bg-no-repeat border-[2px] border-primary-light h-full w-full px-5 py-3 my-7 shadow-[0px_4px_4px_rgba(54,89,60,0.20)]">
 
         <h2 class="my-auto w-full font-gagalin text-primary-dark font-normal text-3xl">
           ENTRÉES
         </h2>
         <div class="flex flex-row mt-4">
+
+          <!-- Faire 3 components imbriqués -->
+          <!-- Component stage plat entrée plat dessert boissons -->
+          <!-- Component list flex-1 -->
+          <!-- Component list plat -->
+          
+          <!-- La data est donc nested pour représenter les différents components -->
+          <!-- Si on reste dans le nestage alors on reproduit le même component  -->
+          <!-- Si on en sort changer de component -->
           <div class="flex flex-1 flex-col mr-5">
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
@@ -51,7 +64,6 @@ title: landing page
 
           </div>
 
-
           <div class="flex flex-1 flex-col">
             <hr class="w-full relative border-none h-[1px] bg-primary-dark bg-opacity-50">
             <div class="flex flex-row justify-between">
@@ -78,8 +90,8 @@ title: landing page
               </div>
             </div>
           </div>
+          
         </div>
-
 
       </div>
 
